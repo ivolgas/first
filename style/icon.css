@@ -1,0 +1,124 @@
+.icon{
+    display: flex;
+    align-items: center;
+
+    /*
+    flex-direction: row-reverse;
+    place-content: baseline;
+    */
+
+}
+
+.icon::before{    /* ::after - для обратного порядка */
+    height: 20px;
+    width: 20px;
+    display: inline-block;    
+    background-size: cover;
+    content: ' ';
+}
+
+.icon.home::before{
+    background-image: url(../icons/home.svg);
+}
+
+.icon.home:hover::before{
+    background-image: url(../icons/home_black_24dp.svg);
+}
+
+.icon.diner::before{
+    background-image: url(../icons/dining.svg);
+}
+
+.icon.diner:hover::before{
+    background-image: url(../icons/dining_black_2.svg);
+}
+
+.icon.girl::before{
+    background-image: url(../icons/female_black_24dp.svg);
+}
+
+.icon.girl:hover::before{
+    background-image: url(../icons/female_black_2.png);
+}
+
+.icon.boy::before{
+    background-image: url(../icons/male_black_24dp.svg);
+}
+
+.icon.boy:hover::before{
+    background-image: url(../icons/male_black_2.png);
+}
+
+.icon.cat::before{
+    background-image: url(../icons/pets_black_24dp.svg);
+}
+
+.icon.cat:hover::before{
+    background-image: url(../icons/pets_black_2.png);
+}
+
+.icon.academy::before{
+    background-image: url(../icons/school_black_24dp.svg);
+    /* margin-right: 6px; */
+}
+
+.icon.academy:hover::before{
+    background-image: url(../icons/school_black_2.svg);
+    /* margin-right: 6px; */
+}
+
+.icon.table::before{
+    background-image: url(../icons/table2.png);
+}
+
+.icon.table:hover::before{
+    background-image: url(../icons/table1.png);
+}
+
+.icon.froggy::before{
+    background-image: url(../icons/frog.png);
+}
+
+.icon.froggy:hover::before{
+    background-image: url(../icons/frog2.png);
+}
+
+.icon.picture::before{
+    background-image: url(../icons/icon_1.png);   
+}
+
+.icon.picture:hover::before{
+    background-image: url(../icons/icon2.png);      
+}
+
+.icon.search::before{
+    background-image: url(../icons/search.png);
+}
+
+.icon.help::before{
+    background-image: url(../icons/help1.svg);
+}
+
+.icon.help:hover::before{
+    background-image: url(../icons/help2.svg);
+}
+
+.icon.people::before{
+    background-image: url(../icons/people1.svg);
+}
+
+.icon.people:hover::before{
+    background-image: url(../icons/people2.svg);
+}
+
+.icon.fitness::before{
+    background-image: url(../icons/fitness.svg);
+}
+
+.icon.bonus::before{
+    background-image: url(../icons/bonus1.png);
+}
+
+.icon.bonus:hover::before{
+    background-image: url(../icons/bonus2.png);
+}
